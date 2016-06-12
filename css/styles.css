@@ -1,0 +1,98 @@
+body {
+    background: #F0AD4E;
+}
+
+.card {
+    margin: 0;
+}
+
+.card.block, .card-header, .card-footer {
+    border: 0;
+}
+
+.display-3, #search-submit{
+    font-family: 'Smokum', cursive;
+    font-weight: bolder;
+}
+
+.display-1, .card-text, .card-header {
+    font-family: 'Rye', cursive;
+}
+
+.search-box {
+    font-family: 'Gochi Hand', cursive;
+}
+
+.card-title {
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.step-up {
+    margin-bottom: -75px;
+    font-size: 7rem;
+}
+
+.amp {
+    color: #373A3C;
+    opacity: 0.5;
+    font-size: 15rem;
+    z-index: 100;
+}
+
+.chance {
+    margin-top: -90px;
+    font-size: 7rem;
+}
+
+.card-text {
+    max-width: 750px;
+}
+
+hr {
+    border-color: #8d570c;
+    max-width: 60%;
+}
+
+.search {
+    display: inline-flex;
+}
+
+.search-box {
+    width: 0;
+    font-size: 2rem;
+    color: #d38312;
+    border: none;
+    outline: none;
+    top: 0;
+    left: 60px;
+    background-color: #373A3C;    
+}
+
+#search-submit {
+    margin: 0 auto;
+    background-color: #373A3C;
+    padding: .25em 2em;
+    font-size: 2rem;
+}
+
+.search-box::-webkit-input-placeholder { 
+    color: #F0AD4E;
+    opacity: 0.3;
+}
+.search-box::-moz-placeholder {
+    color: #F0AD4E;
+    opacity: 1;
+}
+.search-box:-moz-placeholder {
+    color: #F0AD4E;
+    opacity: 1;
+}
+.search-box:-ms-input-placeholder {
+    color: #F0AD4E;
+}
+
+
+
+
+
