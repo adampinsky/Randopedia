@@ -12,22 +12,23 @@ $(document).ready(function() {
     $('#search-label').mouseover(function() {
         $('#search-box').stop().animate({
             width : '500px',
+            maxWidth : '75%',
             paddingLeft : '5px',
             borderWidth : '3px',
             borderStyle : 'solid',
             borderColor : '#373A3C'
         }, 'fast');
         $('#search-bar').animate({
-            left : '-50px'
+            left : '-60px'
         }, 'fast');
     });
     
     $('#search-label').mouseout(function() {
         if(!$('#search-box').is(':focus')) {
             $('#search-box').stop().animate({
-                width : '0px',
+                width : '0',
                 border : 'none',
-                padding : '0'
+                paddingLeft : '0'
             }, 'fast');
             $('#search-bar').animate({
             left : '0'
